@@ -1,0 +1,23 @@
+{
+  "name": "keytag.hungrytailsb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kiyiyi/keytag.hungrytailsb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kiyiyi/keytag.hungrytailsb/issues"
+  },
+  "homepage": "https://github.com/Kiyiyi/keytag.hungrytailsb#readme",
+  "dependencies": {
+    "three": "^0.150.1"
+  }
+}
