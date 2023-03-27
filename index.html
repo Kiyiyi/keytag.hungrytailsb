@@ -1,17 +1,25 @@
 <!DOCTYPE html>
-
 <html>
-    <head>
-        <title>Hungry Tails Dogtag Rotation</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <canvas id="canvas"></canvas>
-        <script type="module">
-            /// <reference types="three" />
-            const scene = new THREE.Scene();
-        </script>
-
-    </body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/jsm/controls/OrbitControls.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/jsm/loaders/GLTFLoader.js"></script>
+    <title>3D Model Viewer</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>3D Model Viewer</h1>
+    <div id="model-viewer"></div>
+    <div id="model-selector">
+      <select id="model-dropdown">
+        <option value="model1.glb">Model 1</option>
+        <option value="model2.glb">Model 2</option>
+        <option value="model3.glb">Model 3</option>
+      </select>
+    </div>
+	<script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
+    <script type="module" src="main.js"></script>
+  </body>
 </html>
